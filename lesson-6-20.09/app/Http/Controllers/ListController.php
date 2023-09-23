@@ -12,7 +12,7 @@ class ListController extends Controller
      */
     public function index()
     {
-        abort(404);
+//        ejvnoiervkl
         return view("lists.index", ['lists' => TodoList::all()]);
     }
 
